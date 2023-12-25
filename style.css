@@ -1,0 +1,223 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(49, 45, 45);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(70, 70, 69);
+    color: aliceblue;
+    border-bottom: solid;
+    border-color: rgb(88, 97, 105);
+}
+
+.model{
+    display: flex;
+    gap: 17px;
+    margin-top: 14px;
+}
+
+.nav img{
+    width:3rem;
+    height: 2rem;
+    border-radius: 4em;
+    padding-top: 0%;
+}
+
+.userswitch{
+    display: flex;
+}
+
+.userswitch h3{
+    margin-top: 0%;
+}
+
+.pt{
+    display: flex;
+    gap: 3em;
+}
+
+.news{
+    display: flex;
+    padding-top: 4px;
+}
+
+.news h3{
+    margin-top: 0%;
+}
+
+.pt{
+    margin-top: 8px;
+}
+
+.searchbar{
+    display: flex;
+    gap: 7px;
+    background-color: rgb(41, 40, 40);
+    width: 25rem;
+    padding: 2px 2px;
+    border-radius: 7px;
+    border: solid;
+    border-color: rgb(188, 174, 192);
+    border-width: thin;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.searchbar input{
+    border: none;
+    background-color: rgb(35, 36, 35);
+    width: 23.3rem;
+}
+
+.searchbar input::placeholder{
+    color: aliceblue;
+    background-color: rgb(46, 46, 46);
+}
+
+.user img{
+    width:2rem;
+    height: 2rem;
+    border-radius: 25px;
+}
+
+.content{
+    display: flex;
+    color: aliceblue;
+}
+
+.side{
+    width: fit-content;
+    background-color: rgb(71, 71, 70); 
+    height: 88.7vh;
+    padding: 6px 29px;
+    color: aliceblue;
+    border-right: solid;
+    border-width: thin;
+    border-color: rgb(125, 126, 128);
+}
+
+.a{
+    display: flex;
+    width: 10rem;
+}
+
+.a button{
+    background-color: blueviolet;
+    width: 10rem;
+    padding: 9px;
+    border-radius: 7px;
+    margin-top: 10rem;
+}
+
+.a button a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.a h3{
+    margin-top: 0%;
+}
+
+.f{
+    display: flex;
+    gap: 23rem;
+    border-color: rgb(107, 97, 87);
+}
+
+.team{
+    display: flex;
+    gap: 5px;
+    padding-right: 5px;
+}
+
+.team h2{
+    margin-top: 12px;
+}
+
+.team p{
+    background-color: rgb(125, 126, 128);
+    padding: 4px;
+    border-radius: 6px;
+}
+
+.tab1{
+    display: flex;
+    gap: 10px;
+    padding-left: px;
+}
+.tab{
+    background-color: rgb(55, 50, 56);
+    border-top: solid;
+    border-width: thick;
+    padding: 4px;
+    border-color: rgb(34, 31, 31);
+    width:13rem;
+    border-radius: 10px;
+}
+
+.on{
+    background-color: rgb(73, 74, 75);
+    padding: 5px 9px;
+    border-radius: 10px;
+}
+
+.o{
+    font-size: 30px;
+    background-color: brown;
+    padding: 9px;
+    padding-top: 0%;
+    width: 5rem;
+    border-radius: 16px;
+    padding-left: 4rem;
+}
+
+.one{
+    display: flex;
+    gap:1rem;
+    margin-top: 15px;
+    padding-left: 15px;
+}
+
+.two{
+    display: flex;
+}
+
+.sites{
+    background-color: rgb(75, 74, 74);
+    border-radius: 12px;
+    margin-top: 8px;
+    margin-left: 15px;
+    padding: 10px;
+}
+
+
+.sitehead{
+    display: flex;
+    gap: 18rem;
+}
+.cl{
+    display: flex;
+    gap: 10px;
+}
+.sitesfiles{
+    display: flex;
+    gap: 6rem;
+    margin-top: -17px;
+}
+
+.sitesfiles img{
+    max-width: 6rem;
+    height: 4rem;
+    margin-top: 23px;
+}
+
+.i{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
